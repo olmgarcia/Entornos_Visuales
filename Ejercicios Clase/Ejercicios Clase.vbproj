@@ -91,6 +91,18 @@
     <Compile Include="3_Factura.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="4_Validaciones_ErrorProvider.Designer.vb">
+      <DependentUpon>4_Validaciones_ErrorProvider.vb</DependentUpon>
+    </Compile>
+    <Compile Include="4_Validaciones_ErrorProvider.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="5_Ciclo_For.Designer.vb">
+      <DependentUpon>5_Ciclo_For.vb</DependentUpon>
+    </Compile>
+    <Compile Include="5_Ciclo_For.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +136,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="3_Factura.resx">
       <DependentUpon>3_Factura.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="4_Validaciones_ErrorProvider.resx">
+      <DependentUpon>4_Validaciones_ErrorProvider.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="5_Ciclo_For.resx">
+      <DependentUpon>5_Ciclo_For.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
