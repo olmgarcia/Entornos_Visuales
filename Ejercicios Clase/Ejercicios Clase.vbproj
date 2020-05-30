@@ -105,6 +105,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <None Include="1.Designer.Operaciones_Basicas" />
+    <None Include="1.Operaciones_Basicas">
+      <SubType>Form</SubType>
+    </None>
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>

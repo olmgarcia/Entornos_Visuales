@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Form1
+Partial Class _2_OperacionesBasicas_Potencia_Raiz
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
@@ -24,15 +24,14 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.SuspendLayout()
         '
-        'Form1
+        '_2_OperacionesBasicas_Potencia_Raiz
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(564, 477)
-        Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.ClientSize = New System.Drawing.Size(690, 497)
+        Me.Name = "_2_OperacionesBasicas_Potencia_Raiz"
+        Me.Text = "Operaciones Basicas Potencia-Raiz"
         Me.ResumeLayout(False)
 
     End Sub
-
 End Class

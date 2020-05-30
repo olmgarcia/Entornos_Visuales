@@ -73,6 +73,18 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="1_Operaciones_Basicas.Designer.vb">
+      <DependentUpon>1_Operaciones_Basicas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="1_Operaciones_Basicas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="2_OperacionesBasicas_Potencia_Raiz.Designer.vb">
+      <DependentUpon>2_OperacionesBasicas_Potencia_Raiz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="2_OperacionesBasicas_Potencia_Raiz.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -84,6 +96,7 @@
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -97,6 +110,15 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="1_Operaciones_Basicas.resx">
+      <DependentUpon>1_Operaciones_Basicas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="2_OperacionesBasicas_Potencia_Raiz.resx">
+      <DependentUpon>2_OperacionesBasicas_Potencia_Raiz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
