@@ -90,7 +90,7 @@ Partial Class _5_Ciclo_For
         Me.BtnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BtnSalir.Cursor = System.Windows.Forms.Cursors.Default
         Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnSalir.Location = New System.Drawing.Point(133, 37)
+        Me.BtnSalir.Location = New System.Drawing.Point(130, 37)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(88, 32)
         Me.BtnSalir.TabIndex = 4
