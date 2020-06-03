@@ -1,4 +1,6 @@
-﻿Public Class _7_EntregaMascarillas
+﻿Imports System.ComponentModel
+
+Public Class _7_EntregaMascarillas
     Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
         Txt_CantDepartamentos.Clear()
         Txt_CantMunicipios.Clear()
@@ -47,4 +49,25 @@
         Cmb_CantDepartamento.DropDownStyle = ComboBoxStyle.DropDownList
     End Sub
 
+    Private Sub Txt_CantDepartamentos_TextChanged(sender As Object, e As EventArgs) Handles Txt_CantDepartamentos.TextChanged
+
+    End Sub
+
+    Private Sub Txt_CantDepartamentos_Validating(sender As Object, e As CancelEventArgs) Handles Txt_CantDepartamentos.Validating
+        If DirectCast(sender, TextBox).Text.Length > 0 Then
+            Me.errorvalidacion.SetError(sender, "")
+        Else
+            Me.errorvalidacion.SetError(sender, "Es un campo obligatorio")
+        End If
+    End Sub
+
+    Private Sub Txt_CantDepartamentos_MouseHover(sender As Object, e As EventArgs) Handles Txt_CantDepartamentos.MouseHover
+        ToolTip.SetToolTip(Txt_CantDepartamentos, "Ingrese un Numero")
+        ToolTip.ToolTipTitle = "Cantidad Departamento"
+        ToolTip.ToolTipIcon = ToolTipIcon.Info
+    End Sub
+
+    Private Sub Cmb_CantDepartamento_SelectedIndexChanged(sender As Object, e As EventArgs) Handles Cmb_CantDepartamento.SelectedIndexChanged
+
+    End Sub
 End Class

@@ -22,6 +22,7 @@ Partial Class _7_EntregaMascarillas
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Cmb_CantDepartamento = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -36,8 +37,11 @@ Partial Class _7_EntregaMascarillas
         Me.BtnSalir = New System.Windows.Forms.Button()
         Me.TxtStock = New System.Windows.Forms.TextBox()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.errorvalidacion = New System.Windows.Forms.ErrorProvider(Me.components)
+        Me.ToolTip = New System.Windows.Forms.ToolTip(Me.components)
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        CType(Me.errorvalidacion, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -184,6 +188,10 @@ Partial Class _7_EntregaMascarillas
         Me.Label4.TabIndex = 9
         Me.Label4.Text = "Total Mascarillas a Entregar"
         '
+        'errorvalidacion
+        '
+        Me.errorvalidacion.ContainerControl = Me
+        '
         '_7_EntregaMascarillas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -202,6 +210,7 @@ Partial Class _7_EntregaMascarillas
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        CType(Me.errorvalidacion, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -221,4 +230,6 @@ Partial Class _7_EntregaMascarillas
     Friend WithEvents BtnSalir As Button
     Friend WithEvents TxtStock As TextBox
     Friend WithEvents Label4 As Label
+    Friend WithEvents errorvalidacion As ErrorProvider
+    Friend WithEvents ToolTip As ToolTip
 End Class
