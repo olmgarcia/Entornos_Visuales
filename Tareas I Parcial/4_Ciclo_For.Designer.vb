@@ -121,7 +121,7 @@ Partial Class _4_Ciclo_For
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(512, 489)
+        Me.ClientSize = New System.Drawing.Size(496, 497)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Lst_Tabla)
         Me.Controls.Add(Me.BtnSalir)
