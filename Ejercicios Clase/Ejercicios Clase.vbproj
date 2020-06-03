@@ -109,6 +109,12 @@
     <Compile Include="6_AcumuladorContador.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="7_EntregaMascarillas.Designer.vb">
+      <DependentUpon>7_EntregaMascarillas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="7_EntregaMascarillas.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -144,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="6_AcumuladorContador.resx">
       <DependentUpon>6_AcumuladorContador.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="7_EntregaMascarillas.resx">
+      <DependentUpon>7_EntregaMascarillas.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
