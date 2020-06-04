@@ -115,6 +115,12 @@
     <Compile Include="7_EntregaMascarillas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="8_FuncionesString.Designer.vb">
+      <DependentUpon>8_FuncionesString.vb</DependentUpon>
+    </Compile>
+    <Compile Include="8_FuncionesString.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -153,6 +159,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="7_EntregaMascarillas.resx">
       <DependentUpon>7_EntregaMascarillas.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="8_FuncionesString.resx">
+      <DependentUpon>8_FuncionesString.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
