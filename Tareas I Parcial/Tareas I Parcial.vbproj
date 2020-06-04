@@ -97,6 +97,84 @@
     <Compile Include="4_Ciclo_For.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Frm_Aplicacion.Designer.vb">
+      <DependentUpon>Frm_Aplicacion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Aplicacion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Area.Designer.vb">
+      <DependentUpon>Frm_Area.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Area.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AreaCirculo.Designer.vb">
+      <DependentUpon>Frm_AreaCirculo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AreaCirculo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AreaCuadrado.Designer.vb">
+      <DependentUpon>Frm_AreaCuadrado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AreaCuadrado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AreaRectangulo.Designer.vb">
+      <DependentUpon>Frm_AreaRectangulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AreaRectangulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AreasPerimetros.Designer.vb">
+      <DependentUpon>Frm_AreasPerimetros.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AreasPerimetros.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_AreaTriangulo.Designer.vb">
+      <DependentUpon>Frm_AreaTriangulo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_AreaTriangulo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MenuPrincipal.Designer.vb">
+      <DependentUpon>Frm_MenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_VolPrismaRegular.Designer.vb">
+      <DependentUpon>Frm_VolPrismaRegular.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_VolPrismaRegular.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Volumen.Designer.vb">
+      <DependentUpon>Frm_Volumen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Volumen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_VolumenCilindro.Designer.vb">
+      <DependentUpon>Frm_VolumenCilindro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_VolumenCilindro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_VolumenCono.Designer.vb">
+      <DependentUpon>Frm_VolumenCono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_VolumenCono.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_VolumenCubo.Designer.vb">
+      <DependentUpon>Frm_VolumenCubo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_VolumenCubo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -126,6 +204,45 @@
     </EmbeddedResource>
     <EmbeddedResource Include="4_Ciclo_For.resx">
       <DependentUpon>4_Ciclo_For.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Aplicacion.resx">
+      <DependentUpon>Frm_Aplicacion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Area.resx">
+      <DependentUpon>Frm_Area.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AreaCirculo.resx">
+      <DependentUpon>Frm_AreaCirculo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AreaCuadrado.resx">
+      <DependentUpon>Frm_AreaCuadrado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AreaRectangulo.resx">
+      <DependentUpon>Frm_AreaRectangulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AreasPerimetros.resx">
+      <DependentUpon>Frm_AreasPerimetros.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_AreaTriangulo.resx">
+      <DependentUpon>Frm_AreaTriangulo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MenuPrincipal.resx">
+      <DependentUpon>Frm_MenuPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_VolPrismaRegular.resx">
+      <DependentUpon>Frm_VolPrismaRegular.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Volumen.resx">
+      <DependentUpon>Frm_Volumen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_VolumenCilindro.resx">
+      <DependentUpon>Frm_VolumenCilindro.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_VolumenCono.resx">
+      <DependentUpon>Frm_VolumenCono.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_VolumenCubo.resx">
+      <DependentUpon>Frm_VolumenCubo.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
