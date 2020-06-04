@@ -175,7 +175,9 @@ Partial Class Frm_AreaCuadrado
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_AreaCuadrado"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_AreaCuadrado"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()

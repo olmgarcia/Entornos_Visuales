@@ -81,7 +81,7 @@ Partial Class Frm_AreaRectangulo
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(164, 45)
+        Me.Label4.Location = New System.Drawing.Point(153, 46)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(221, 19)
         Me.Label4.TabIndex = 39
@@ -197,7 +197,9 @@ Partial Class Frm_AreaRectangulo
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_AreaRectangulo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_AreaRectangulo"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()

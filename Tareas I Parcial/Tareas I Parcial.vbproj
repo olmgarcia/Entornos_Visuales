@@ -127,12 +127,6 @@
     <Compile Include="Frm_AreaRectangulo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Frm_AreasPerimetros.Designer.vb">
-      <DependentUpon>Frm_AreasPerimetros.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Frm_AreasPerimetros.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Frm_AreaTriangulo.Designer.vb">
       <DependentUpon>Frm_AreaTriangulo.vb</DependentUpon>
     </Compile>
@@ -219,9 +213,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_AreaRectangulo.resx">
       <DependentUpon>Frm_AreaRectangulo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Frm_AreasPerimetros.resx">
-      <DependentUpon>Frm_AreasPerimetros.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_AreaTriangulo.resx">
       <DependentUpon>Frm_AreaTriangulo.vb</DependentUpon>

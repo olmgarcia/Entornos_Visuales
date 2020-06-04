@@ -4,8 +4,7 @@
     End Sub
 
     Private Sub BtnSalir_Click(sender As Object, e As EventArgs) Handles BtnSalir.Click
-        Me.Close()
-
+        End
     End Sub
 
     Private Sub BtnRegresar_Click(sender As Object, e As EventArgs) Handles BtnRegresar.Click
@@ -23,6 +22,18 @@
     Private Sub BtnCono_Click(sender As Object, e As EventArgs) Handles BtnCono.Click
         Me.Hide()
         Frm_VolumenCono.Show()
+
+    End Sub
+
+    Private Sub BtnCilindro_Click(sender As Object, e As EventArgs) Handles BtnCilindro.Click
+        Me.Hide()
+        Frm_VolumenCilindro.Show()
+
+    End Sub
+
+    Private Sub BtnPrismaRegular_Click(sender As Object, e As EventArgs) Handles BtnPrismaRegular.Click
+        Me.Hide()
+        Frm_VolPrismaRegular.Show()
 
     End Sub
 End Class

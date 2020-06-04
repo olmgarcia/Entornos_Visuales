@@ -44,7 +44,6 @@ Public Class Frm_VolumenCono
         opcion = MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If opcion = DialogResult.Yes Then
             End
-
         End If
 
     End Sub

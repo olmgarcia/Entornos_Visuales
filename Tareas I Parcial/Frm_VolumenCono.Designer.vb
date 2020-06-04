@@ -210,8 +210,9 @@ Partial Class Frm_VolumenCono
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_VolumenCono"
-        Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_VolumenCono"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()

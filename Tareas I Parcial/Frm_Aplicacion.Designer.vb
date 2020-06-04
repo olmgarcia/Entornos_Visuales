@@ -44,7 +44,7 @@ Partial Class Frm_Aplicacion
         Me.BtnEntrar.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BtnEntrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnEntrar.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnEntrar.Location = New System.Drawing.Point(71, 270)
+        Me.BtnEntrar.Location = New System.Drawing.Point(78, 270)
         Me.BtnEntrar.Name = "BtnEntrar"
         Me.BtnEntrar.Size = New System.Drawing.Size(104, 44)
         Me.BtnEntrar.TabIndex = 7
@@ -56,7 +56,7 @@ Partial Class Frm_Aplicacion
         Me.BtnSalir.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.BtnSalir.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnSalir.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnSalir.Location = New System.Drawing.Point(217, 270)
+        Me.BtnSalir.Location = New System.Drawing.Point(224, 270)
         Me.BtnSalir.Name = "BtnSalir"
         Me.BtnSalir.Size = New System.Drawing.Size(104, 44)
         Me.BtnSalir.TabIndex = 6
@@ -67,11 +67,11 @@ Partial Class Frm_Aplicacion
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Century Schoolbook", 24.0!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Underline), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(48, 163)
+        Me.Label1.Location = New System.Drawing.Point(64, 163)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(332, 37)
+        Me.Label1.Size = New System.Drawing.Size(298, 37)
         Me.Label1.TabIndex = 8
-        Me.Label1.Text = "Areas y Volumenes"
+        Me.Label1.Text = "Areas y Volumen"
         '
         'Frm_Aplicacion
         '

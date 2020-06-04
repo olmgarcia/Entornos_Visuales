@@ -198,6 +198,7 @@ Partial Class Frm_VolumenCilindro
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_VolumenCilindro"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_VolumenCilindro"

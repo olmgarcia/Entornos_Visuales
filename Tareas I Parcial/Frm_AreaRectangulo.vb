@@ -3,19 +3,28 @@
 Public Class Frm_AreaRectangulo
     Private Sub BtnCalcular_Click(sender As Object, e As EventArgs) Handles BtnCalcular.Click
         Dim valor As Int16
-        If Txt_Base.Text = "" Then
-            MsgBox("Escriba un numero en la casilla", vbInformation)
-        ElseIf Not IsNumeric(Txt_Base.Text) Then
-            MsgBox("Ingrese un valor numerico", vbInformation)
-            Txt_Base.Text = ""
-        ElseIf IsNumeric(valor) Then
-            valor = Val(Txt_Base.Text)
-            If valor = 0 Then
-                MsgBox("Numero cero", vbInformation)
-            ElseIf valor < 0 Then
-                MsgBox("Numero negativo")
+
+        Try
+
+            If Me.ValidateChildren And Txt_Base.Text <> String.Empty And Txt_Altura.Text <> String.Empty And Val(Txt_Area.Text) - Int(Val(Txt_Area.Text)) = 0 Then
+                MessageBox.Show("Altura Ingresada", "Formulario Area Rectangulo", MessageBoxButtons.OK, MessageBoxIcon.Information)
             End If
-        End If
+            If Txt_Base.Text = "" Then
+                MsgBox("Escriba un numero en la casilla", vbInformation)
+            ElseIf Not IsNumeric(Txt_Base.Text) Then
+                MsgBox("Ingrese un valor numerico", vbInformation)
+                Txt_Base.Text = ""
+            ElseIf IsNumeric(valor) Then
+                valor = Val(Txt_Base.Text)
+                If valor = 0 Then
+                    MsgBox("Numero cero", vbInformation)
+                ElseIf valor < 0 Then
+                    MsgBox("Numero negativo")
+                End If
+            End If
+        Catch ex As Exception
+            MsgBox(ex.Message)
+        End Try
 
         Dim base, altura, area As Integer
 
@@ -48,7 +57,7 @@ Public Class Frm_AreaRectangulo
         Dim opcion As Integer
         opcion = MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If opcion = DialogResult.Yes Then
-            Me.Close()
+            End
         End If
 
     End Sub

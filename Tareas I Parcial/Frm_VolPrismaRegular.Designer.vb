@@ -197,7 +197,9 @@ Partial Class Frm_VolPrismaRegular
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_VolPrismaRegular"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_VolPrismaRegular"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()

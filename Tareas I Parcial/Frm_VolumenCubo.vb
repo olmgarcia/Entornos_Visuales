@@ -36,7 +36,7 @@ Public Class Frm_VolumenCubo
         Dim opcion As Integer
         opcion = MessageBox.Show("¿Desea Salir?", "Salir", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If opcion = DialogResult.Yes Then
-            Me.Close()
+            End
         End If
     End Sub
 

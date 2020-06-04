@@ -164,6 +164,7 @@ Partial Class Frm_AreaCirculo
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(582, 532)
+        Me.ControlBox = False
         Me.Controls.Add(Me.BtnLimpiar)
         Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.BtnCalcular)
@@ -175,7 +176,9 @@ Partial Class Frm_AreaCirculo
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.BtnRegresar)
         Me.Controls.Add(Me.BtnSalir)
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Frm_AreaCirculo"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Frm_AreaCirculo"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.errorValidacion, System.ComponentModel.ISupportInitialize).EndInit()
