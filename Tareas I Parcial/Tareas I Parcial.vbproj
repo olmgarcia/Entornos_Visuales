@@ -169,6 +169,42 @@
     <Compile Include="Frm_VolumenCubo.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="GuiaEjercicio1.Designer.vb">
+      <DependentUpon>GuiaEjercicio1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaEjercicio1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiaEjercicio2.Designer.vb">
+      <DependentUpon>GuiaEjercicio2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaEjercicio2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiaEjercicio3.Designer.vb">
+      <DependentUpon>GuiaEjercicio3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaEjercicio3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiaEjercicio4.Designer.vb">
+      <DependentUpon>GuiaEjercicio4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaEjercicio4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiaEjercicio5.Designer.vb">
+      <DependentUpon>GuiaEjercicio5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaEjercicio5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GuiaMenuPrincipal.Designer.vb">
+      <DependentUpon>GuiaMenuPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GuiaMenuPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -234,6 +270,24 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_VolumenCubo.resx">
       <DependentUpon>Frm_VolumenCubo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaEjercicio1.resx">
+      <DependentUpon>GuiaEjercicio1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaEjercicio2.resx">
+      <DependentUpon>GuiaEjercicio2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaEjercicio3.resx">
+      <DependentUpon>GuiaEjercicio3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaEjercicio4.resx">
+      <DependentUpon>GuiaEjercicio4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaEjercicio5.resx">
+      <DependentUpon>GuiaEjercicio5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GuiaMenuPrincipal.resx">
+      <DependentUpon>GuiaMenuPrincipal.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
