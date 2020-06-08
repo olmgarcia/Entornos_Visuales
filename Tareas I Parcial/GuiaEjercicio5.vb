@@ -11,4 +11,16 @@
         Me.Hide()
         GuiaMenuPrincipal.Show()
     End Sub
+
+    Private Sub GuiaEjercicio5_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+    End Sub
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Txt_Sueldo.Clear()
+        Txt_SueldoNeto.Clear()
+        Chk_Deduccion.Enabled = False
+        ChkExcento.Enabled = False
+
+    End Sub
 End Class

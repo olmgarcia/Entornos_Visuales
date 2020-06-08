@@ -43,7 +43,7 @@ Partial Class GuiaEjercicio1
         Me.Txt_Resultado = New System.Windows.Forms.TextBox()
         Me.BtnBorrar = New System.Windows.Forms.Button()
         Me.BtnIgual = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.Txt_Historial = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
@@ -263,14 +263,14 @@ Partial Class GuiaEjercicio1
         Me.BtnIgual.Text = "="
         Me.BtnIgual.UseVisualStyleBackColor = True
         '
-        'TextBox2
+        'Txt_Historial
         '
-        Me.TextBox2.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox2.Location = New System.Drawing.Point(453, 64)
-        Me.TextBox2.Multiline = True
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(168, 196)
-        Me.TextBox2.TabIndex = 27
+        Me.Txt_Historial.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Txt_Historial.Location = New System.Drawing.Point(453, 64)
+        Me.Txt_Historial.Multiline = True
+        Me.Txt_Historial.Name = "Txt_Historial"
+        Me.Txt_Historial.Size = New System.Drawing.Size(168, 196)
+        Me.Txt_Historial.TabIndex = 27
         '
         'Label1
         '
@@ -295,7 +295,7 @@ Partial Class GuiaEjercicio1
         'GroupBox1
         '
         Me.GroupBox1.Controls.Add(Me.Label1)
-        Me.GroupBox1.Controls.Add(Me.TextBox2)
+        Me.GroupBox1.Controls.Add(Me.Txt_Historial)
         Me.GroupBox1.Controls.Add(Me.BtnNum1)
         Me.GroupBox1.Controls.Add(Me.BtnIgual)
         Me.GroupBox1.Controls.Add(Me.BtnNum2)
@@ -363,7 +363,7 @@ Partial Class GuiaEjercicio1
     Friend WithEvents Txt_Resultado As TextBox
     Friend WithEvents BtnBorrar As Button
     Friend WithEvents BtnIgual As Button
-    Friend WithEvents TextBox2 As TextBox
+    Friend WithEvents Txt_Historial As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
