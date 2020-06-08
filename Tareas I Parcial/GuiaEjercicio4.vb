@@ -26,12 +26,5 @@
         j = 1
         cad = ""
 
-        num = Val(e.Keychar)
-        If num Mod 2 = 0 Then
-            lblpar.text = lblpar.text & num
-        ElseIf num / 2 Mod 0 Then
-            lblimpiar.text = lblimpiar.text & num
-        End If
-
     End Sub
 End Class

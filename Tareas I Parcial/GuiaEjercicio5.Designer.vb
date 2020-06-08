@@ -34,9 +34,9 @@ Partial Class GuiaEjercicio5
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Txt_SueldoNeto = New System.Windows.Forms.TextBox()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.BtnCalcular = New System.Windows.Forms.Button()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.BtnLimpiar = New System.Windows.Forms.Button()
-        Me.BtnCalcular = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
@@ -166,6 +166,18 @@ Partial Class GuiaEjercicio5
         Me.GroupBox1.TabIndex = 42
         Me.GroupBox1.TabStop = False
         '
+        'BtnCalcular
+        '
+        Me.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.BtnCalcular.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BtnCalcular.Location = New System.Drawing.Point(122, 106)
+        Me.BtnCalcular.Name = "BtnCalcular"
+        Me.BtnCalcular.Size = New System.Drawing.Size(104, 44)
+        Me.BtnCalcular.TabIndex = 48
+        Me.BtnCalcular.Text = "Calcular"
+        Me.BtnCalcular.UseVisualStyleBackColor = False
+        '
         'GroupBox2
         '
         Me.GroupBox2.Controls.Add(Me.ChkExcento)
@@ -188,18 +200,6 @@ Partial Class GuiaEjercicio5
         Me.BtnLimpiar.TabIndex = 49
         Me.BtnLimpiar.Text = "Limpiar"
         Me.BtnLimpiar.UseVisualStyleBackColor = False
-        '
-        'BtnCalcular
-        '
-        Me.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.BtnCalcular.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCalcular.Location = New System.Drawing.Point(122, 106)
-        Me.BtnCalcular.Name = "BtnCalcular"
-        Me.BtnCalcular.Size = New System.Drawing.Size(104, 44)
-        Me.BtnCalcular.TabIndex = 48
-        Me.BtnCalcular.Text = "Calcular"
-        Me.BtnCalcular.UseVisualStyleBackColor = False
         '
         'GuiaEjercicio5
         '
