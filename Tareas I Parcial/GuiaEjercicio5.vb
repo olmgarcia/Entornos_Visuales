@@ -55,6 +55,6 @@
             Txt_SueldoNeto.Text = Txt_Sueldo.Text * 0.25
         End If
 
-
     End Sub
+
 End Class

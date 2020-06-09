@@ -16,26 +16,30 @@
         Dim Numero, NumerosPar, NumerosImpar, NumerosPositivos, NumerosNegativos, SumaTotal, CantNumeros As Integer
 
         CantNumeros = Val(Txt_CantNumeros.Text)
+        If Txt_CantNumeros.Text <> "" Then
+            For i = 1 To CantNumeros Step 1
+                Numero = InputBox("Ingrese un numero", "Ingreso de valores")
 
-        For i = 1 To CantNumeros Step 1
-            Numero = InputBox("Ingrese un numero", "Ingreso de valores")
+                CmbNumeros.Items.Add(Numero)
 
-            CmbNumeros.Items.Add(Numero)
+                If Numero = Int(Numero / 2) * 2 Then
+                    NumerosPar = NumerosPar + 1
+                Else
+                    NumerosImpar = NumerosImpar + 1
+                End If
 
-            If Numero = Int(Numero / 2) * 2 Then
-                NumerosPar = NumerosPar + 1
-            Else
-                NumerosImpar = NumerosImpar + 1
-            End If
+                If Numero < 0 Then
+                    NumerosNegativos = NumerosNegativos + 1
+                Else
+                    NumerosPositivos = NumerosPositivos + 1
+                End If
 
-            If Numero < 0 Then
-                NumerosNegativos = NumerosNegativos + 1
-            Else
-                NumerosPositivos = NumerosPositivos + 1
-            End If
+                SumaTotal = SumaTotal + Numero
+            Next
+        Else
+            MsgBox("Debe Inresar una Cantidad de Numeros", vbInformation)
+        End If
 
-            SumaTotal = SumaTotal + Numero
-        Next
         Txt_NumPares.Text = NumerosPar
         Txt_NumImpares.Text = NumerosImpar
         Txt_NumPositivos.Text = NumerosPositivos

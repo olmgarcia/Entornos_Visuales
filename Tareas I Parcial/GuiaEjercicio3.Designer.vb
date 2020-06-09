@@ -28,15 +28,11 @@ Partial Class GuiaEjercicio3
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.BtnLimpiar = New System.Windows.Forms.Button()
         Me.BtnCalcular = New System.Windows.Forms.Button()
-        Me.Txt_Almacen = New System.Windows.Forms.TextBox()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GroupBox2 = New System.Windows.Forms.GroupBox()
-        Me.Chk_VentasAltas = New System.Windows.Forms.ComboBox()
         Me.Txt_Promedio = New System.Windows.Forms.TextBox()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Txt_Ventas = New System.Windows.Forms.TextBox()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
-        Me.GroupBox2.SuspendLayout()
         Me.SuspendLayout()
         '
         'BtnRegresar
@@ -75,24 +71,26 @@ Partial Class GuiaEjercicio3
         '
         'GroupBox1
         '
-        Me.GroupBox1.Controls.Add(Me.BtnLimpiar)
-        Me.GroupBox1.Controls.Add(Me.BtnCalcular)
-        Me.GroupBox1.Controls.Add(Me.Txt_Almacen)
+        Me.GroupBox1.Controls.Add(Me.Txt_Ventas)
         Me.GroupBox1.Controls.Add(Me.Label1)
+        Me.GroupBox1.Controls.Add(Me.BtnLimpiar)
+        Me.GroupBox1.Controls.Add(Me.Txt_Promedio)
+        Me.GroupBox1.Controls.Add(Me.BtnCalcular)
+        Me.GroupBox1.Controls.Add(Me.Label3)
         Me.GroupBox1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox1.Location = New System.Drawing.Point(46, 88)
+        Me.GroupBox1.Location = New System.Drawing.Point(46, 108)
         Me.GroupBox1.Name = "GroupBox1"
-        Me.GroupBox1.Size = New System.Drawing.Size(469, 199)
+        Me.GroupBox1.Size = New System.Drawing.Size(469, 320)
         Me.GroupBox1.TabIndex = 36
         Me.GroupBox1.TabStop = False
-        Me.GroupBox1.Text = "Ingreso Almacenes:"
+        Me.GroupBox1.Text = "Almacenes:"
         '
         'BtnLimpiar
         '
         Me.BtnLimpiar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLimpiar.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLimpiar.Location = New System.Drawing.Point(304, 116)
+        Me.BtnLimpiar.Location = New System.Drawing.Point(290, 238)
         Me.BtnLimpiar.Name = "BtnLimpiar"
         Me.BtnLimpiar.Size = New System.Drawing.Size(104, 44)
         Me.BtnLimpiar.TabIndex = 50
@@ -104,80 +102,48 @@ Partial Class GuiaEjercicio3
         Me.BtnCalcular.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnCalcular.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnCalcular.Location = New System.Drawing.Point(115, 116)
+        Me.BtnCalcular.Location = New System.Drawing.Point(101, 238)
         Me.BtnCalcular.Name = "BtnCalcular"
         Me.BtnCalcular.Size = New System.Drawing.Size(104, 44)
         Me.BtnCalcular.TabIndex = 49
         Me.BtnCalcular.Text = "Calcular"
         Me.BtnCalcular.UseVisualStyleBackColor = False
         '
-        'Txt_Almacen
-        '
-        Me.Txt_Almacen.Location = New System.Drawing.Point(230, 43)
-        Me.Txt_Almacen.Multiline = True
-        Me.Txt_Almacen.Name = "Txt_Almacen"
-        Me.Txt_Almacen.Size = New System.Drawing.Size(137, 28)
-        Me.Txt_Almacen.TabIndex = 37
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(53, 52)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(144, 19)
-        Me.Label1.TabIndex = 36
-        Me.Label1.Text = "Numero de Almacen"
-        '
-        'GroupBox2
-        '
-        Me.GroupBox2.Controls.Add(Me.Chk_VentasAltas)
-        Me.GroupBox2.Controls.Add(Me.Txt_Promedio)
-        Me.GroupBox2.Controls.Add(Me.Label4)
-        Me.GroupBox2.Controls.Add(Me.Label3)
-        Me.GroupBox2.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GroupBox2.Location = New System.Drawing.Point(47, 312)
-        Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(468, 206)
-        Me.GroupBox2.TabIndex = 37
-        Me.GroupBox2.TabStop = False
-        Me.GroupBox2.Text = "Resultados"
-        '
-        'Chk_VentasAltas
-        '
-        Me.Chk_VentasAltas.FormattingEnabled = True
-        Me.Chk_VentasAltas.Location = New System.Drawing.Point(229, 103)
-        Me.Chk_VentasAltas.Name = "Chk_VentasAltas"
-        Me.Chk_VentasAltas.Size = New System.Drawing.Size(136, 27)
-        Me.Chk_VentasAltas.TabIndex = 40
-        '
         'Txt_Promedio
         '
-        Me.Txt_Promedio.Location = New System.Drawing.Point(229, 43)
+        Me.Txt_Promedio.Location = New System.Drawing.Point(240, 70)
         Me.Txt_Promedio.Multiline = True
         Me.Txt_Promedio.Name = "Txt_Promedio"
         Me.Txt_Promedio.Size = New System.Drawing.Size(137, 28)
         Me.Txt_Promedio.TabIndex = 39
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.Location = New System.Drawing.Point(75, 105)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(124, 19)
-        Me.Label4.TabIndex = 38
-        Me.Label4.Text = "Ventas mas Altas"
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(75, 52)
+        Me.Label3.Location = New System.Drawing.Point(103, 77)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(72, 19)
         Me.Label3.TabIndex = 37
         Me.Label3.Text = "Promedio"
+        '
+        'Txt_Ventas
+        '
+        Me.Txt_Ventas.Location = New System.Drawing.Point(240, 148)
+        Me.Txt_Ventas.Multiline = True
+        Me.Txt_Ventas.Name = "Txt_Ventas"
+        Me.Txt_Ventas.Size = New System.Drawing.Size(137, 28)
+        Me.Txt_Ventas.TabIndex = 52
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(103, 157)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 19)
+        Me.Label1.TabIndex = 51
+        Me.Label1.Text = "Ventas"
         '
         'GuiaEjercicio3
         '
@@ -185,7 +151,6 @@ Partial Class GuiaEjercicio3
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(594, 614)
-        Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.BtnRegresar)
@@ -196,8 +161,6 @@ Partial Class GuiaEjercicio3
         Me.Text = "GuiaEjercicio3"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
-        Me.GroupBox2.ResumeLayout(False)
-        Me.GroupBox2.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -207,13 +170,10 @@ Partial Class GuiaEjercicio3
     Friend WithEvents BtnSalir As Button
     Friend WithEvents Label2 As Label
     Friend WithEvents GroupBox1 As GroupBox
-    Friend WithEvents Txt_Almacen As TextBox
-    Friend WithEvents Label1 As Label
     Friend WithEvents BtnLimpiar As Button
     Friend WithEvents BtnCalcular As Button
-    Friend WithEvents GroupBox2 As GroupBox
     Friend WithEvents Txt_Promedio As TextBox
-    Friend WithEvents Label4 As Label
     Friend WithEvents Label3 As Label
-    Friend WithEvents Chk_VentasAltas As ComboBox
+    Friend WithEvents Txt_Ventas As TextBox
+    Friend WithEvents Label1 As Label
 End Class
