@@ -182,7 +182,7 @@ Partial Class GuiaEjercicio4
         Me.BtnLimpiar.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BtnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.BtnLimpiar.Font = New System.Drawing.Font("Times New Roman", 11.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BtnLimpiar.Location = New System.Drawing.Point(477, 269)
+        Me.BtnLimpiar.Location = New System.Drawing.Point(477, 255)
         Me.BtnLimpiar.Name = "BtnLimpiar"
         Me.BtnLimpiar.Size = New System.Drawing.Size(104, 44)
         Me.BtnLimpiar.TabIndex = 47
@@ -242,7 +242,7 @@ Partial Class GuiaEjercicio4
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(635, 587)
+        Me.ClientSize = New System.Drawing.Size(638, 587)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Txt_NumNegativos)
         Me.Controls.Add(Me.Label9)
