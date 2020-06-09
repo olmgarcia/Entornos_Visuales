@@ -122,7 +122,7 @@ Partial Class _1_Suma
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(552, 448)
+        Me.ClientSize = New System.Drawing.Size(561, 448)
         Me.Controls.Add(Me.BtnSalir)
         Me.Controls.Add(Me.BtnLimpiar)
         Me.Controls.Add(Me.Label3)
