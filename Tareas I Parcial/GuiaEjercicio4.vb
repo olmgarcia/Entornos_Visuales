@@ -13,18 +13,43 @@
     End Sub
 
     Private Sub BtnAnalizar_Click(sender As Object, e As EventArgs) Handles BtnAnalizar.Click
-        Dim numeros As Integer
-        Dim par, impar As Integer
-        Dim positivo, negativo As Integer
-        Dim numDigitos, totalDigitos As Integer
-        Dim i, j, cad As Integer
+        Dim Numero, NumerosPar, NumerosImpar, NumerosPositivos, NumerosNegativos, SumaTotal, CantNumeros As Integer
 
-        numeros = Val(Txt_CantNumeros.Text)
-        par = Val(Txt_NumPares.Text)
-        impar = Val(Txt_NumImpares.Text)
-        i = 0
-        j = 1
-        cad = ""
+        CantNumeros = Val(Txt_CantNumeros.Text)
 
+        For i = 1 To CantNumeros Step 1
+            Numero = InputBox("Ingrese un numero", "Ingreso de valores")
+
+            CmbNumeros.Items.Add(Numero)
+
+            If Numero = Int(Numero / 2) * 2 Then
+                NumerosPar = NumerosPar + 1
+            Else
+                NumerosImpar = NumerosImpar + 1
+            End If
+
+            If Numero < 0 Then
+                NumerosNegativos = NumerosNegativos + 1
+            Else
+                NumerosPositivos = NumerosPositivos + 1
+            End If
+
+            SumaTotal = SumaTotal + Numero
+        Next
+        Txt_NumPares.Text = NumerosPar
+        Txt_NumImpares.Text = NumerosImpar
+        Txt_NumPositivos.Text = NumerosPositivos
+        Txt_NumNegativos.Text = NumerosNegativos
+        Txt_TotalNumeros.Text = SumaTotal
+    End Sub
+
+    Private Sub BtnLimpiar_Click(sender As Object, e As EventArgs) Handles BtnLimpiar.Click
+        Txt_CantNumeros.Clear()
+        Txt_NumPares.Clear()
+        Txt_NumImpares.Clear()
+        Txt_NumPositivos.Clear()
+        Txt_NumNegativos.Clear()
+        Txt_TotalNumeros.Clear()
+        CmbNumeros.Items.Clear()
     End Sub
 End Class
