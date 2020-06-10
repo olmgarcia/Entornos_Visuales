@@ -61,12 +61,16 @@ Public Class LoginSinager
         ToolTip.ToolTipTitle = "Usuario"
         ToolTip.ToolTipIcon = ToolTipIcon.Info
     End Sub
-
     Private Sub Txt_Contraseña_MouseHover(sender As Object, e As EventArgs) Handles Txt_Contraseña.MouseHover
         ToolTip.SetToolTip(Txt_Usuario, "Ingrese una Contraseña")
         ToolTip.ToolTipTitle = "Contraseña"
         ToolTip.ToolTipIcon = ToolTipIcon.Info
     End Sub
+
+    Private Sub Txt_Usuario_TextChanged(sender As Object, e As EventArgs) Handles Txt_Usuario.TextChanged
+
+    End Sub
+
     Private Sub chk_VerContraseña_CheckedChanged(sender As Object, e As EventArgs) Handles chk_VerContraseña.CheckedChanged
         If chk_VerContraseña.Checked = True Then
             Txt_Contraseña.PasswordChar = ""
