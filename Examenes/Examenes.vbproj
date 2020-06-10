@@ -80,10 +80,23 @@
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="IngresoPruebasSinager.Designer.vb">
+      <DependentUpon>IngresoPruebasSinager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoPruebasSinager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginSinager.Designer.vb">
+      <DependentUpon>LoginSinager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoginSinager.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +112,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoPruebasSinager.resx">
+      <DependentUpon>IngresoPruebasSinager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginSinager.resx">
+      <DependentUpon>LoginSinager.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
