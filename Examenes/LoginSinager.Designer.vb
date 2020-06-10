@@ -142,7 +142,7 @@ Partial Class LoginSinager
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(550, 507)
+        Me.ClientSize = New System.Drawing.Size(557, 507)
         Me.Controls.Add(Me.chk_VerContraseña)
         Me.Controls.Add(Me.BtnNuevoUsuario)
         Me.Controls.Add(Me.BtnSalir)

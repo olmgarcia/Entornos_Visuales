@@ -67,10 +67,6 @@ Public Class LoginSinager
         ToolTip.ToolTipIcon = ToolTipIcon.Info
     End Sub
 
-    Private Sub Txt_Usuario_TextChanged(sender As Object, e As EventArgs) Handles Txt_Usuario.TextChanged
-
-    End Sub
-
     Private Sub chk_VerContraseña_CheckedChanged(sender As Object, e As EventArgs) Handles chk_VerContraseña.CheckedChanged
         If chk_VerContraseña.Checked = True Then
             Txt_Contraseña.PasswordChar = ""

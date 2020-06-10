@@ -134,5 +134,4 @@ Public Class IngresoPruebasSinager
             Chk_Negativo.Enabled = False
         End If
     End Sub
-
 End Class

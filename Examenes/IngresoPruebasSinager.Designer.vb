@@ -334,7 +334,7 @@ Partial Class IngresoPruebasSinager
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(1008, 630)
+        Me.ClientSize = New System.Drawing.Size(1005, 630)
         Me.Controls.Add(Me.Txt_Muertos)
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Txt_Activo)
