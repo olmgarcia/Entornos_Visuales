@@ -211,7 +211,7 @@ Partial Class IngresoPruebasSinager
         '
         Me.His.AutoSize = True
         Me.His.Font = New System.Drawing.Font("Times New Roman", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.His.Location = New System.Drawing.Point(462, 94)
+        Me.His.Location = New System.Drawing.Point(453, 89)
         Me.His.Name = "His"
         Me.His.Size = New System.Drawing.Size(72, 19)
         Me.His.TabIndex = 27

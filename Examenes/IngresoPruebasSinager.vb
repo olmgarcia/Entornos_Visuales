@@ -134,8 +134,4 @@ Public Class IngresoPruebasSinager
             Chk_Negativo.Enabled = False
         End If
     End Sub
-
-    Private Sub Txt_Descripcion_TextChanged(sender As Object, e As EventArgs) Handles Txt_Descripcion.TextChanged
-
-    End Sub
 End Class
